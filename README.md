@@ -7,5 +7,5 @@ Powered by:
 
 [Custom Maid classifier Model](https://huggingface.co/RingoDingo/MaidClassifier)
 
-To run your own instance download the two models and place them in the `models` folder. Then create a .env file and include a line for the `OPENAI_API_KEY` and `DISCORD_API_KEY`. Setup is handled automatically in the bot script.
+To run your own instance download the two models and place them in the `models` folder. Then create a .env file and include a line for the `OPENAI_API_KEY` and `DISCORD_API_KEY`. Finally, download the necessary packages by creating a new conda environment using the provided `environment.yml` file.
 
