@@ -49,6 +49,7 @@ async def on_guild_join(guild):
             
   #if no general channel, send to first channel
   await guild.channels[0].send(introduction_message)
+  server_request_counts[guild.id] = 0
   print("INFO: Introduction message sent to new server")
 
 #reset server request counts every minute
