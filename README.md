@@ -3,6 +3,7 @@ Discord Bot with chatGPT integration for fully automatic maidposting. The bot wi
 
 Powered by:
 [Deep Danbooru](https://github.com/AUTOMATIC1111/TorchDeepDanbooru)
+
 [Custom Maid classifier Model](https://huggingface.co/RingoDingo/MaidClassifier)
 
 To run your own instance download the two models and place them in the `models` folder. Then create a .env file and include a line for the `OPENAI_API_KEY` and `DISCORD_API_KEY`. Setup is handled automatically in the bot script.
