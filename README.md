@@ -7,5 +7,9 @@ Powered by:
 
 [Custom Maid classifier Model](https://huggingface.co/RingoDingo/MaidClassifier)
 
+Add to your server with this link:
+
+https://discord.com/api/oauth2/authorize?client_id=1142304003808563252&permissions=34816&scope=bot
+
 To run your own instance download the two models and place them in the `models` folder. Then create a .env file and include a line for the `OPENAI_API_KEY` and `DISCORD_API_KEY`. Finally, download the necessary packages by creating a new conda environment using the provided `environment.yml` file.
 
